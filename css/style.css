@@ -1,0 +1,281 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background:rgba(55, 56, 104, 0.93);
+    position: fixed;
+    width: 100%;
+}
+
+.atalho{
+    float: right;
+    display: inline;
+    margin: 3% 5% 0 0;
+}
+
+main{
+    padding: 0 0 8% 4%;
+    background: linear-gradient(rgb(209, 213, 255)60%,rgb(177, 177, 255));
+}
+
+.logo-branca{
+    width: 5%;
+    margin: 3px 0 3px 10%;
+}
+
+.caixa{
+    position: relative;
+    margin: 0 auto;
+    box-shadow: 0px 1px 20px rgb(39, 39, 39);
+}
+
+.atalhos{
+    float: right;
+    text-transform: uppercase;
+    margin-left: 25px;
+    font-size: 13px;
+}
+
+nav a{
+    color: rgb(183, 221, 255);
+    text-decoration: none;
+}
+
+.atalhos:hover {
+    font-weight: bold;
+}
+
+.apresenta{
+    display: inline-block;
+    padding: 20% 4% 5% 15%;
+    vertical-align: top;
+}
+
+.apresenta p{
+    width: auto;
+    font-size: 1.3em;
+    margin: 5px 0 ;
+}
+
+.apresenta h1{
+    font-size: 2em;
+}
+
+.linkedin{
+    width: 60%;
+    padding: 1em 0;
+    margin: 5% 0 0 3em;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 30%;
+    background: rgb(29, 29, 90);
+    color: rgb(216, 216, 216);
+    transition: 0.5s all;
+}
+
+.linkedin:hover {
+    transform: scale(1.05);
+    background: rgb(69, 69, 158);
+}
+
+.minha-foto{
+    display: inline-block;
+    width: 20%;
+    border-radius: 50%;
+    margin: 17% 8% 8%;
+}
+
+.sobre-mim{
+    background: linear-gradient(rgb(177, 177, 255),rgb(130, 130, 253)50%);
+    width: 100%;
+    margin: 0 auto;
+    padding: 5% 0 10%;
+}
+
+.programador {
+    display: inline-block;
+    margin: 0 0 0 5%;
+}
+
+.sobre-mim-escrito {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    margin: 6% 0 0 3%;
+    text-align: center;
+}
+
+.sobre-mim-escrito p {
+    font-size: 120%;
+    margin: 1em auto;
+}
+
+.sobre-mim-escrito h1 {
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.projetos{
+    background: linear-gradient(rgb(130, 130, 253), rgb(85, 85, 255)60%);
+    color: rgb(225, 226, 255);
+    text-align: center;
+    width: 100%;
+    padding: 8% 0 12%;
+    margin: 0 auto;
+}
+
+.projetos h2{
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.projetos li{
+    background: rgb(32, 32, 122, 0.5);
+    display: inline-block;
+    margin: 5% 1.5% 0;
+    padding: 2% 1% 14%;
+    border: 2px white;
+    border-radius: 10px;
+    transition: 0.4s all;
+}
+
+.projetos li:hover{
+    background: rgb(0, 156, 117);
+    transform: scale(1.1);
+    font-weight: bold;
+}
+
+.habilidades{
+    text-align: center;
+    margin: 0 auto;
+    padding: 9% 0 12%;
+    background: linear-gradient(rgb(85, 85, 255),rgb(28, 28, 197)60%);
+}
+
+.habilidades h2{
+    font-size: 150%;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.html img, .css img{
+    width: 90%;
+}
+
+.js img{
+    margin-top: 2px;
+    padding: 1.3px 0 2px;
+    width: 85%;
+ }
+
+.html,.css,.js{
+    padding: 2% 0;
+    vertical-align: top;
+    border: 2px solid;
+    margin: 0 0.6%;
+    border-radius: 5px;
+    background: linear-gradient(rgb(0, 214, 186)80%,rgb(0, 78, 80));
+    transition: 0.4s all;
+    width: 10%;
+    display: inline-block;
+}
+
+.html:hover, .css:hover, .js:hover {
+    background: linear-gradient(rgb(38, 207, 123)80%, rgb(15, 85, 50) );
+    transform: scale(1.1);
+}
+
+.imagens {
+    margin: 5% 0;
+}
+
+.imagens p{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    font-style:italic;
+    color: rgb(39, 39, 39);
+}
+
+footer {
+    padding: 3% 0;
+    text-align: center;
+    background:rgb(33, 33, 63);
+}
+
+footer p{
+    padding: 5px 0;
+    color:rgb(183, 255, 245);
+}
+
+footer a{
+    color:aliceblue;
+}
+
+@media screen and (max-width: 480px){
+    .caixa{
+        padding: 3% 0 10%;
+    }
+
+    .logo-branca{
+        margin: 0 0 0 5px;
+    }
+
+    .atalhos{
+        font-size: 8px;
+    }
+
+    .apresenta{
+        padding: 5% 0 5%;
+    }
+
+    .apresenta p{
+        font-size: 15px;
+    }
+
+    .apresenta h1{
+        font-size: 20px;
+    }
+
+    .minha-foto{
+        margin: 10% 0 0 2%;
+        width: 25%;
+    }
+
+    .sobre-mim-escrito{
+        width: 90%;
+        font-size: 85%;
+    }
+
+    .linkedin{
+        padding: 1em 0;
+        width: 50%;
+    }
+
+    .programador{
+        float: left;
+    }
+
+    .programador{
+        width: 45%;
+        margin: 0;
+    }
+
+    .html,.css,.js{
+        padding: 5% 3%;
+        margin: 0 2%;
+    }
+
+    .imagens p{
+        font-size: 15px;
+        text-align: center;
+        margin: 0 0 10%;
+        font-weight: bold;
+    }
+
+    footer p{
+        font-size: 12px;
+    }
+}
