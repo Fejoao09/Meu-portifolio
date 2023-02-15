@@ -170,19 +170,23 @@ nav a{
     width: 85%;
  }
 
-.html,.css,.js{
+ .reactJS img{
+    width: 90%;
+ }
+
+.habilidades li{
     padding: 2% 0;
     vertical-align: top;
     border: 2px solid;
     margin: 0 0.6%;
     border-radius: 5px;
-    background: linear-gradient(rgb(0, 214, 186)80%,rgb(0, 78, 80));
+    background: linear-gradient(rgba(0, 219, 135, 0.877)80%,rgb(0, 78, 80));
     transition: 0.4s all;
     max-width: 120px;
     display: inline-block;
 }
 
-.html:hover, .css:hover, .js:hover {
+.habilidades li:hover {
     background: linear-gradient(rgb(38, 207, 123)80%, rgb(15, 85, 50) );
     transform: scale(1.1);
 }
@@ -250,7 +254,7 @@ footer a{
     }
 
     .linkedin{
-        padding: 1em 0;
+        padding: 0.5em 0;
         width: 50%;
     }
 
